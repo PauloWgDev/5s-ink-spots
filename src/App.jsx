@@ -16,11 +16,14 @@ const SONG_BANK = [
   { id: 'set-fire', title: "I Don't Want to Set the World on Fire", clip: '/audio/set-the-world-on-fire.mp3', note: 329.63 },
   { id: 'maybe', title: 'Maybe', clip: '/audio/maybe.mp3', note: 349.23 },
   { id: 'java-jive', title: 'Java Jive', clip: '/audio/java-jive.mp3', note: 523.25 },
+  { id: 'dreamboat', title: 'Dreamboat', clip: '/audio/dreamboat.mp3', note: 523.25 },
+  { id: 'my-prayer', title: 'My Prayer', clip: '/audio/my-prayer.mp3', note: 523.25 },
+  { id: 'never-smile-again', title: 'Never Smile Again', clip: '/audio/never-smile-again.mp3', note: 523.25 },
 ]
 
 const NUM_ROUNDS = 5
-const NUM_OPTIONS = 3
-const CLIP_SECONDS = 6
+const NUM_OPTIONS = 4
+const CLIP_SECONDS = 5
 
 function shuffle(arr) {
   const a = [...arr]
