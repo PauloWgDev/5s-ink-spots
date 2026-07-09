@@ -11,14 +11,14 @@ import './App.css'
 // and lets you test the whole game loop today. Swap in real 5s clips
 // whenever you're ready; nothing else needs to change.
 const SONG_BANK = [
-  { id: 'didnt-care', title: "If I Didn't Care", clip: '/audio/if-i-didnt-care.mp3', note: 261.63 },
-  { id: 'we-three', title: 'We Three (My Echo, My Shadow and Me)', clip: '/audio/we-three.mp3', note: 293.66 },
-  { id: 'set-fire', title: "I Don't Want to Set the World on Fire", clip: '/audio/set-the-world-on-fire.mp3', note: 329.63 },
+  { id: 'didnt-care', title: "If I Didn't Care", clip: '/5s-ink-spots/audio/if-i-didnt-care.mp3', note: 261.63 },
+  { id: 'we-three', title: 'We Three (My Echo, My Shadow and Me)', clip: '/5s-ink-spots/audio/we-three.mp3', note: 293.66 },
+  { id: 'set-fire', title: "I Don't Want to Set the World on Fire", clip: '/5s-ink-spots/audio/set-the-world-on-fire.mp3', note: 329.63 },
   { id: 'maybe', title: 'Maybe', clip: '/audio/maybe.mp3', note: 349.23 },
-  { id: 'java-jive', title: 'Java Jive', clip: '/audio/java-jive.mp3', note: 523.25 },
-  { id: 'dreamboat', title: 'Dreamboat', clip: '/audio/dreamboat.mp3', note: 523.25 },
-  { id: 'my-prayer', title: 'My Prayer', clip: '/audio/my-prayer.mp3', note: 523.25 },
-  { id: 'never-smile-again', title: 'Never Smile Again', clip: '/audio/never-smile-again.mp3', note: 523.25 },
+  { id: 'java-jive', title: 'Java Jive', clip: '/5s-ink-spots/audio/java-jive.mp3', note: 523.25 },
+  { id: 'dreamboat', title: 'Dreamboat', clip: '/5s-ink-spots/audio/dreamboat.mp3', note: 523.25 },
+  { id: 'my-prayer', title: 'My Prayer', clip: '/5s-ink-spots/audio/my-prayer.mp3', note: 523.25 },
+  { id: 'never-smile-again', title: 'Never Smile Again', clip: '/5s-ink-spots/audio/never-smile-again.mp3', note: 523.25 },
 ]
 
 const NUM_ROUNDS = 5
@@ -175,7 +175,7 @@ export default function App() {
       <header className="masthead">
         <p className="eyebrow">A Listening Game</p>
         <h1>Name That Ink Spots Tune</h1>
-        <p className="tagline">Cue the needle. You've got five seconds.</p>
+        <p className="tagline">You've got five seconds.</p>
       </header>
 
       {!finished ? (
